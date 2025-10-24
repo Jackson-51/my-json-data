@@ -4,30 +4,90 @@
     "duration": "2",
     "questions": [
       {
-        "question": "What is 2 + 2?",
-        "options": ["3", "4", "5", "6"],
-        "answer": "4"
+        "question": "Find the partial derivative of f(x, y) = x²y with respect to x.",
+        "options": ["2xy", "x²", "y", "2x", "xy²"],
+        "answer": "2xy"
       },
       {
-        "question": "What is 5 × 6?",
-        "options": ["11", "25", "30", "56"],
-        "answer": "30"
+        "question": "Evaluate the double integral ∬ x + y dA over the region 0 ≤ x ≤ 1, 0 ≤ y ≤ 1.",
+        "options": ["1", "2", "1.5", "0.5"],
+        "answer": "1"
+      },
+      {
+        "question": "The gradient of f(x, y, z) = xyz is:",
+        "options": ["(yz, xz, xy)", "(x, y, z)", "(xy, yz, zx)", "(x+y+z)"],
+        "answer": "(yz, xz, xy)"
       }
     ]
   },
+
+  "PGG318": {
+    "title": "Natural Gas Processing",
+    "duration": "2",
+    "questions": [
+      {
+        "question": "What is the main component of natural gas?",
+        "options": ["Ethane", "Methane", "Propane", "Butane"],
+        "answer": "Methane"
+      },
+      {
+        "question": "Which process is used to remove water vapor from natural gas?",
+        "options": ["Absorption", "Dehydration", "Adsorption", "Condensation"],
+        "answer": "Dehydration"
+      },
+      {
+        "question": "The unit used to measure natural gas volume is:",
+        "options": ["Cubic feet", "Gallons", "Barrels", "Liters"],
+        "answer": "Cubic feet"
+      }
+    ]
+  },
+
   "CEG211": {
     "title": "Mechanics of Materials",
     "duration": "2",
     "questions": [
       {
-        "question": "What planet is closest to the sun?",
-        "options": ["Earth", "Venus", "Mercury", "Mars"],
-        "answer": "Mercury"
+        "question": "Stress is defined as:",
+        "options": [
+          "Force per unit area",
+          "Force per unit volume",
+          "Strain per unit length",
+          "Load × displacement"
+        ],
+        "answer": "Force per unit area"
       },
       {
-        "question": "What gas do plants absorb from the atmosphere?",
-        "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
-        "answer": "Carbon dioxide"
+        "question": "What is the unit of Young’s modulus?",
+        "options": ["N/m", "N/m²", "N", "m²/N"],
+        "answer": "N/m²"
+      },
+      {
+        "question": "If a bar is under tension, it experiences:",
+        "options": ["Shear stress", "Tensile stress", "Compressive stress", "Torsional stress"],
+        "answer": "Tensile stress"
+      }
+    ]
+  },
+
+  "CHG331": {
+    "title": "Transport Phenomenon",
+    "duration": "2",
+    "questions": [
+      {
+        "question": "Momentum transport deals with which law?",
+        "options": ["Fick’s law", "Newton’s law of viscosity", "Fourier’s law", "Hooke’s law"],
+        "answer": "Newton’s law of viscosity"
+      },
+      {
+        "question": "Which property measures a fluid's resistance to flow?",
+        "options": ["Density", "Viscosity", "Velocity", "Pressure"],
+        "answer": "Viscosity"
+      },
+      {
+        "question": "Heat transfer by molecular motion is known as:",
+        "options": ["Conduction", "Convection", "Radiation", "Evaporation"],
+        "answer": "Conduction"
       }
     ]
   }
