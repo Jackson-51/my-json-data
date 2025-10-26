@@ -3,21 +3,206 @@
     "title": "Multivariable Calculus",
     "duration": "2",
     "questions": [
-      {
-        "question": "Find the partial derivative of f(x, y) = x²y with respect to x.",
-        "options": ["2xy", "x²", "y", "2x", "xy²"],
-        "answer": "2xy"
-      },
-      {
-        "question": "Evaluate the double integral ∬ x + y dA over the region 0 ≤ x ≤ 1, 0 ≤ y ≤ 1.",
-        "options": ["1", "2", "1.5", "0.5"],
-        "answer": "1"
-      },
-      {
-        "question": "The gradient of f(x, y, z) = xyz is:",
-        "options": ["(yz, xz, xy)", "(x, y, z)", "(xy, yz, zx)", "(x+y+z)"],
-        "answer": "(yz, xz, xy)"
-      }
+          {
+              "question": "1. What is the gradient of a scalar function f(x, y, z)?",
+              "options": [
+                "A vector pointing in the direction of maximum decrease of f",
+                "A scalar equal to the rate of change of f",
+                "A vector pointing in the direction of maximum increase of f",
+                "A scalar representing the average rate of change of f"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "2. The divergence of a vector field measures:",
+              "options": [
+                "The rotation of the field",
+                "The rate of expansion or compression at a point",
+                "The length of the field vector",
+                "The magnitude of the gradient"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "3. The curl of a vector field represents:",
+              "options": [
+                "The rate of expansion of the field",
+                "The direction of maximum change",
+                "The amount of rotation or swirling in the field",
+                "The divergence of the field"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "4. If f(x, y) = x²y + 3xy², find ∂f/∂x.",
+              "options": [
+                "2xy + 3y²",
+                "y + 3y²",
+                "2x + 6y",
+                "2y + 3x²"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "5. What is the Jacobian determinant used for?",
+              "options": [
+                "Changing variables in multiple integrals",
+                "Computing divergence",
+                "Finding gradients",
+                "Evaluating line integrals"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "6. If F = (y, -x), what is curl F in 2D?",
+              "options": [
+                "0",
+                "2",
+                "-2",
+                "-2x"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "7. The line integral ∫C ∇f · dr equals:",
+              "options": [
+                "f evaluated at the start of C",
+                "0 always",
+                "f evaluated at the end minus f at the start",
+                "The magnitude of ∇f"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "8. The condition for a vector field F to be conservative is:",
+              "options": [
+                "∇ · F = 0",
+                "∇ × F = 0",
+                "F · ∇ = 0",
+                "∇²F = 0"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "9. The surface integral ∬S F · n dS represents:",
+              "options": [
+                "The total circulation of F across S",
+                "The flux of F through S",
+                "The curl of F at each point on S",
+                "The divergence of F on S"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "10. What theorem relates the surface integral of curl F to a line integral around its boundary?",
+              "options": [
+                "Green’s Theorem",
+                "Stokes’ Theorem",
+                "Divergence Theorem",
+                "Gauss’ Theorem"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "11. Green’s Theorem applies to:",
+              "options": [
+                "Closed surfaces in 3D",
+                "Open surfaces in 3D",
+                "Closed curves in 2D regions",
+                "Volume integrals"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "12. The Divergence Theorem converts:",
+              "options": [
+                "A surface integral into a line integral",
+                "A volume integral into a line integral",
+                "A surface integral into a volume integral",
+                "A line integral into a surface integral"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "13. If f(x, y, z) = x² + y² + z², what is ∇f?",
+              "options": [
+                "(2x, 2y, 2z)",
+                "(x, y, z)",
+                "(x², y², z²)",
+                "(3x, 3y, 3z)"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "14. For f(x, y) = e^(xy), what is ∂²f/∂x∂y?",
+              "options": [
+                "x e^(xy)",
+                "(1 + xy)e^(xy)",
+                "y e^(xy)",
+                "(1 + xy)e^x"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "15. The directional derivative of f in the direction of unit vector u is:",
+              "options": [
+                "∇f × u",
+                "∇f · u",
+                "|∇f| / |u|",
+                "∇u · f"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "16. The Laplacian of f(x, y, z) is defined as:",
+              "options": [
+                "∂²f/∂x² + ∂²f/∂y² + ∂²f/∂z²",
+                "∂f/∂x + ∂f/∂y + ∂f/∂z",
+                "∂f²/∂x² + ∂f²/∂y² + ∂f²/∂z²",
+                "∇ × (∇f)"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "17. In polar coordinates, the Jacobian is:",
+              "options": [
+                "r",
+                "r²",
+                "1/r",
+                "θ"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "18. The equation of a plane through (x₀, y₀, z₀) with normal vector (a, b, c) is:",
+              "options": [
+                "a(x - x₀) + b(y - y₀) + c(z - z₀) = 0",
+                "ax + by + cz = 0",
+                "x/a + y/b + z/c = 1",
+                "ax + by + cz = 1"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "19. If F = (P, Q, R), then div F equals:",
+              "options": [
+                "∂P/∂x + ∂Q/∂y + ∂R/∂z",
+                "∂P/∂y + ∂Q/∂x + ∂R/∂z",
+                "P + Q + R",
+                "∇ × F"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "20. The volume of integration element in spherical coordinates is:",
+              "options": [
+                "r² sinθ dr dθ dφ",
+                "r dr dθ dφ",
+                "sinθ dr dθ dφ",
+                "r³ sinθ dr dθ dφ"
+              ],
+              "answer": "A"
+            }
     ]
   },
 
@@ -92,3 +277,5 @@
     ]
   }
 }
+
+
