@@ -213,17 +213,17 @@
       {
         "question": "What is the main component of natural gas?",
         "options": ["Ethane", "Methane", "Propane", "Butane"],
-        "answer": "Methane"
+        "answer": "B"
       },
       {
         "question": "Which process is used to remove water vapor from natural gas?",
         "options": ["Absorption", "Dehydration", "Adsorption", "Condensation"],
-        "answer": "Dehydration"
+        "answer": "B"
       },
       {
         "question": "The unit used to measure natural gas volume is:",
         "options": ["Cubic feet", "Gallons", "Barrels", "Liters"],
-        "answer": "Cubic feet"
+        "answer": "A"
       }
     ]
   },
@@ -240,17 +240,17 @@
           "Strain per unit length",
           "Load × displacement"
         ],
-        "answer": "Force per unit area"
+        "answer": "A"
       },
       {
         "question": "What is the unit of Young’s modulus?",
         "options": ["N/m", "N/m²", "N", "m²/N"],
-        "answer": "N/m²"
+        "answer": "B"
       },
       {
         "question": "If a bar is under tension, it experiences:",
         "options": ["Shear stress", "Tensile stress", "Compressive stress", "Torsional stress"],
-        "answer": "Tensile stress"
+        "answer": "B"
       }
     ]
   },
@@ -262,17 +262,17 @@
       {
         "question": "Momentum transport deals with which law?",
         "options": ["Fick’s law", "Newton’s law of viscosity", "Fourier’s law", "Hooke’s law"],
-        "answer": "Newton’s law of viscosity"
+        "answer": "B"
       },
       {
         "question": "Which property measures a fluid's resistance to flow?",
         "options": ["Density", "Viscosity", "Velocity", "Pressure"],
-        "answer": "Viscosity"
+        "answer": "B"
       },
       {
         "question": "Heat transfer by molecular motion is known as:",
         "options": ["Conduction", "Convection", "Radiation", "Evaporation"],
-        "answer": "Conduction"
+        "answer": "A"
       }
     ]
   }
